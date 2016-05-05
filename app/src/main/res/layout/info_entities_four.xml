@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txv_intoduccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/txv_ultimo"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/string_dimens_txv_titulo"
+            android:text="Inyección de dependencias"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:id="@+id/txv_intoduccion_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="@dimen/string_dimens_txv"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/txv_ultimo"
+            android:text="a la hora de definir cualquier componente, ya sea un Controller, un Service o lo que sea, debemos indicar de qué otros componentes depende y angular se encargará de proporcionárselos a través de la función constructura (o de la función factoría que lo construya, que para el caso es lo mismo).
+
+Todos los componentes registrados en angular son singleton, es decir, sólo existe una instancia de ellos en la aplicación y si hay varios componentes que dependen de un mismo objeto, todos recibirán la misma instancia del objeto. Esto es lo que permite utilizar fácilmente los servicios para almacenar estado, ya que dos Controllers que dependan de un mismo servicio estarán utilizando el mismo objeto y, por tanto, podrán compartir información a través de él.
+
+El mayor inconveniente de usar un contenedor de inyección de dependencias en un lenguaje dinámico como javascript es que necesitamos definir explicítamente las dependencias ya que no existen un sistema de tipos que permita inferirlas automáticamente.
+"
+            />
+
+    <Button
+        android:id="@+id/btn_custionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_cuest"
+        android:textSize="@dimen/string_dimens_btn"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Video"
+        android:textSize="@dimen/string_dimens_btn"
+        android:gravity="center"
+        android:id="@+id/btn_video"/>
+</LinearLayout>
+    </ScrollView>

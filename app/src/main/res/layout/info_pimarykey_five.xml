@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="@dimen/string_dimens_txv_titulo"
+            android:text="¿Qué son los filtros?"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/string_dimens_txv"
+            android:text="Los filtros son una herramienta que nos proporciona el framework de AngularJS para ahorrarnos trabajo recurrente, al igual que la arquitectura filtro-tubería, permite que dados unos datos de entrada, mediante unos parámetros obtengamos una salida depurada según nuestras necesidades. Ya sean mostrar los datos de un modo que al usuario le resulten más útiles como formatear una fecha, limitar el número máximo de resultados para no sobrecargar una vista de información o cosas tan mundanas como convertir un texto a minúsculas."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="@dimen/string_dimens_txv_titulo"
+            android:text="¿Cómo se usan los filtros?"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/string_dimens_txv"
+            android:text="Para que un filtro interactue con una expresion simplemente es necesario colocarlo dentro de una doble llave y separarlo de la expresion a filtrar por una barra vertical de esta forma {{expresion | filtro }}
+Al igual que en la arquitectura filtro-tubería se pueden encadenar filtros haciendo que la salida de uno pase a la entrada del siguiente y consiguiendo resultados mucho mas complejos con muy poco esfuerzo {{ expresion | filtro1 | filtro2 }}
+AngularJS ya nos trae una lista de filtros por defecto para utilizar, vamos a ver algunos de estos:
+\n
+Lowercase / Uppercase
+Este es uno de los mas sencillos, convierte el texto que le pasemos a minúsculas/mayúsculas.
+{{expresion | lowercase}}
+
+{{expresion | uppercase}}
+El uso de {{ “HoLa MuNDo” | lowercase}} nos mostrará por pantalla “hola mundo” y el de {{ “HoLa MuNDo” | uppercase}} mostrará “HOLA MUNDO”
+Este filtro nos permite desentendernos de cómo están almacenados los datos y mostrarlos como deseamos.
+\n
+Currency
+El filtro currency se utiliza para formatear un número basado en un tipo de moneda, la forma más básica de utilizarlo es sin ningún parámetro, así se consigue la moneda en dolares con el simbolo del dolar precedido al de la cantidad.
+{{ 60 | currency }} da como resultado $60.00
+Si necesitamos otro tipo de moneda se puede especificar el simbolo para que por ejemplo sea el de euros €
+{{ 60 | currency: ‘€’ }} da como resultado €60.00
+\n
+LimitTo
+En ocasiones tenemos una lista muy larga de elementos y queremos mostrar solo parte de ellos, en este caso tenemos el filtro limitTo que solo muestra el número de elementos que le especifiquemos como máximo.
+{{ lista | limitTo:5 }} sólo muestra los cinco primeros elementos.
+Date
+Uno de los más útiles, el formateo de fechas, el usuario no quiere fechas en formatos que no entiende por lo que hay que adecuarla a ellos, este filtro es muy configurable y con muy poco esfuerzo muestra toda la información que el usuario quiere ver.
+El uso básico es {{ fecha | date }} la salida será “Feb 28, 2015”.
+"
+            />
+
+
+
+        <Button
+        android:id="@+id/btn_custionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/str_cuest"
+        android:textSize="@dimen/string_dimens_btn"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/str_video"
+        android:textSize="@dimen/string_dimens_btn"
+        android:gravity="center"
+        android:id="@+id/btn_video"/>
+</LinearLayout>
+    </ScrollView>

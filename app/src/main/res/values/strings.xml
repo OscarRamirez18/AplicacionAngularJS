@@ -1,0 +1,280 @@
+<resources>
+    <string name="app_name">JPA</string>
+
+    <string name="login">Login</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="vista">Vista</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="registro">Registro</string>
+    <string name="introduccion">Introducción</string>
+    <string name="correo_elec">Correo Electrónico</string>
+    <string name="pass">Password</string>
+    <string name="confim_pass">Confirmar Contraseña</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="cancel">Cancelar</string>
+    <string name="name_app">Angular JS</string>
+    <string name="nom_usuario">Nombre usuario</string>
+    <string name="edit_note">Modificar nota</string>
+    <string name="menu_insert">Insertar Nota</string>
+    <string name="menu_delete">Borrar nota</string>
+    <string name="name">Nombre</string>
+    <string name="registrate">REGISTRA TUS DATOS:</string>
+    <string name="save">Guardar</string>
+    <string name="back">Regresar</string>
+
+    <string name="str_title_temario">Selecciona el modulo</string>
+
+    //consultas a la base de datos
+    <string name="str_insert_answer_1">
+        INSERT INTO answers (answer, response) VALUES
+        (\'Utilizado para alterar temporalmente la correlación de un Basic la
+        propiedad o campo o Id de la propiedad o campo?\', \'OVERRIDE\')
+    </string>
+    <string name="str_insert_answer_2">
+        INSERT INTO answers (answer, response) VALUES
+        (\'La presencia de esta anotación en una clase registra automáticamente la clase
+        con el tiempo de ejecución como una clase de bean administrado\', \'MANAGEDBEAN\')
+    </string>
+    <string name="str_insert_answer_3">
+        INSERT INTO answers (answer, response) VALUES
+        (\'Define una asociación de un solo valor a
+        otra entidad que tiene multiplicidad uno-a-uno?\', \'ONETOONE\')
+    </string>
+    <string name="str_insert_answer_4">
+        INSERT INTO answers (answer, response) VALUES
+        (\'Define una asociación de un solo valor a
+        otra clase de entidad que tiene multiplicidad muchos-a-uno?\', \'MANYTOONE\')
+    </string>
+    <string name="str_cuest">Cuestionario</string>
+
+    //muestra las preguntas
+    <string name="str_answer_override">
+        Utilizado para alterar temporalmente la correlación de un Basic la
+        propiedad o campo o Id de la propiedad o campo?
+    </string>
+
+    <string name="str_answer_manytoone">
+        Define una asociación de un solo valor a
+        otra clase de entidad que tiene multiplicidad muchos-a-uno?
+    </string>
+
+    <string name="str_answer_onetoone">
+        Define una asociación de un solo valor a otra
+        entidad que tiene multiplicidad uno-a-uno?
+    </string>
+
+    <string name="str_answer_managedbean">
+        La presencia de esta anotación en una clase registra automáticamente la clase
+        con el tiempo de ejecución como una clase de bean administrado
+    </string>
+    //mas informacion
+    <string name="str_info_many">
+        El ManyToOne anotación se puede utilizar dentro de una clase incrustada para especificar
+        una relación de la clase incrustada a una clase de entidad. Si la relación es bidireccional,
+        el no poseer OneToMany lado entidad debe utilizar el mappedBy elemento de la
+        OneToMany anotación para especificar el campo de relación o la propiedad del
+        campo integrable o propiedad en el lado propietario de la relación.
+        El punto (".") La notación de sintaxis debe ser utilizado en el mappedBy elemento para
+        indicar la relación de atributo en el atributo incorporado.
+        El valor de cada identificador se utiliza con la notación de puntos es el nombre del respectivo campo o propiedad incrustado.
+    </string>
+
+    <string name="str_info_one">
+       El OneToOne anotación se puede utilizar dentro de una clase incrustada para especificar una
+        relación de la clase incrustada a una clase de entidad. Si la relación es bidireccional y
+        la entidad que contiene la clase incrustada está en la parte propietaria de la relación,
+        el lado no poseer debe utilizar el mappedBy elemento de la OneToOne anotación para
+        especificar el campo de relación o la propiedad de la clase incrustada.
+        El punto (".") La notación de sintaxis debe ser utilizado en el mappedBy elemento para
+        indicar la relación de atributo en el atributo incorporado.
+        El valor de cada identificador se utiliza con la notación de puntos es el nombre del respectivo campo o propiedad incrustado.
+    </string>
+
+    <string name="str_info_override">
+        La capacidad de una subclase para reemplazar un método permite que una clase herede de una
+        superclase cuyo comportamiento es "lo suficientemente cerca" y luego para modificar el
+        comportamiento según sea necesario. El método predominante tiene el mismo nombre, el número y
+        tipo de parámetros, y el tipo de retorno como el método de modo que se anulan. Un método de alteración temporal
+        también puede devolver un subtipo del tipo devuelto por el método reemplazado. Este subtipo se denomina un tipo de retorno covariante.
+    </string>
+
+    <string name="str_info_managedbean">
+        La anotación @ManagedBean (javax.faces.bean.ManagedBean) en una clase registra automáticamente
+        esa clase como un recurso con la implementación JavaServer Faces.
+        Un bean gestionado tal registrada no necesita entradas de configuración-bean gestionado
+        en el fichero de configuración de la aplicación.
+    </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="player_error">Error initializing YouTube player</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_acerca_de_scrolling">Enviar Correo Electronico</string>
+
+    <string name="str_about">
+        "Desarrollador"
+        "Luis Colmenero Morales"
+        "Asignatura"
+        "Desarrollo de aplicaciones III"
+        "Institución de Desarrollo"
+        "Universidad Tecnológica del Norte de Guanajuato"
+        "Bibliografía"
+        ""Manual avanzado de JPA"
+        "Por:"
+        "Carmelo Navarro Serna "
+        "http://static1.1.sqspcdn.com/static/f/923743/15024995/1320737616283/Manualjpa.pdf?token=WliVrqXbYW75JEEdISncmQN6TNM%3D"
+        "Audio"
+        "por:"
+        "Edgar Villa"
+        "https://www.youtube.com/watch?v=M-Dt9kstocc"
+        "Videos"
+        "https://www.youtube.com/watch?v=isTyq-Idiu8"
+        "https://www.youtube.com/watch?v=xvXO4ykChHs"
+        "https://www.youtube.com/watch?v=XtMmEbciUwo"
+        "https://www.youtube.com/watch?v=8kekLnSUo4o"
+        "https://www.youtube.com/watch?v=IWsY675Foug"
+    </string>
+
+    <string name="str_inicio">
+        AngularJS es Javascript. Es un proyecto de código abierto, realizado en Javascript que contiene un conjunto de librerías útiles para el desarrollo de aplicaciones web y propone una serie de patrones de diseño para llevarlas a cabo. En pocas palabras, es lo que se conoce como un framework para el desarrollo, en esta caso sobre el lenguaje Javascript con programación del lado del cliente.
+        \n
+        \n
+        Puedes encontrar el proyecto de AngularJS en su propio sitio web: AngularJS, Superheroic JavaScript MVW Framework. Al ser un proyecto de código abierto cualquier persona con un poco de curiosidad echar un vistazo con profundidad y ver cómo se ha escrito, incluso admiten colaboraciones de desarrolladores que quiera aportar cosas.
+
+    </string>
+
+    <string name="str_javajpa">Que es JPA(Java Persisten API)</string>
+    <string name="str_persistencia_text">Si queremos entrar en esta discusión, y para no liar a aquellos desarrolladores con menos experiencia, debemos decir que jQuery y AngularJS son librerías bien diferentes. El alcance y el tipo de cosas que se hacen con una y otra librería son distintos.
+jQuery es una librería que nos sirve para acceder y modificar el estado de cualquiera de los elementos de la página. A través de jQuery y los selectores de CSS (así como los selectores creados por el propio jQuery) eres capaz de llegar a los elementos de la página, a cualquiera de ellos, y puedes leer y modificar sus propiedades, suscribirte a eventos que ocurran en esos elementos, etc. Con jQuery podíamos manejar cualquier cosa que ocurra en esos elementos de una manera mucho más cómoda que con Javascript "a pelo" y compatible con la mayor gama de navegadores.
+Sin embargo Angular pasa de ser una librería para convertirse en un framework de aplicaciones web. No solo te permite una serie de funciones y mecanismos para acceder a los elementos de la página y modificarlos, sino que también te ofrece una serie de mecanismos por los cuales extender el HTML, para hacerlo más semántico, incluso ahorrarte muchas líneas de código Javascript para hacer las mismas cosas que antes hacías con jQuery. Pero la principal diferencia y por la cual AngularJS toma la denominación de "framework", es que te marca una serie de normas y hábitos en la programación, principalmente gracias al patrón MVC implementado en AngularJS.
+
+    </string>
+
+    <string name="str_persistent">Persistencia</string>
+    /<string name="str_pesisten_types">La persistencia puede tener 4 estados diferentes:
+        \nO Transient: Un objeto recién creado que no ha sido enlazado con el gestor de persistencia.
+        \nO Persistent: Un objeto enlazado con la sesión (Todos los cambios serán persistentes).
+        \nO Detached: Un objeto persistente que sigue en memoria después de que termina la sesión:
+        existe en java y en la BDD.
+        \nO Removed: Un objeto marcado para ser eliminado de la BBDD:
+        existe en java y se borrará de la BDD al terminar la sesión.
+    </string>
+
+    <string name="str_orm">
+        Un ORM (Object Relational Mapping) define una forma de transformar un modelo
+        orientado a objetos en un modelo relacional INCO-Facultad de Ingeniería –Montevideo, Uruguay
+        3\n\n Hay muchas formas de llevar a cabo tal transformación\n\nImpedance Mismatch
+    </string>
+    <string name="str_types_raltions">Hay cuatro tipo de relaciones: uno a uno, uno a muchos, muchos a
+        uno, y muchos a muchos. \nO Uno a uno: Cada entidad se relaciona con una sola instancia de
+        otra entidad. Las relaciones uno a uno utilizan anotaciones de la persistencia de java
+        \'OneToOne\'. \nO Uno a muchos: Una entidad, puede estar relacionada con varias instancias
+        de otras entidades. Las relaciones uno a muchos utilizan anotaciones de la persistencia de
+        java \'OneToMany\' en los campos o propiedades persistentes. \nO Muchos a uno: Múltiples
+        instancias de una entidad pueden estar relacionadas con una sola instancia de otra entidad.
+        Esta multiplicidad es lo contrario a la relación uno a muchos. Las relaciones muchos a uno
+        utilizan anotaciones de la persistencia de java \'ManyToOne\' en los campos o propiedades
+        persistentes. \nO Muchos a muchos: En este caso varias instancias de una entidad pueden
+        relacionarse con múltiples instancias de otras entidades. Este tipo de relación utiliza
+        anotaciones de la persistencia de java \'ManyToMany\' en los campos o propiedades persistentes.
+    </string>
+
+    <string name="str_entities_text">Una entidad es un objeto de dominio de persistencia. Normalmente,
+        una entidad representa una tabla en el modelo de datos relacional y cada instancia de esta
+        entidad corresponde a un registro en esa tabla. El estado de persistencia de una entidad se
+        representa a través de campos persistentes o propiedades persistentes. Estos campos o
+        propiedades usan anotaciones para el mapeo de estos objetos en el modelo de base de datos.
+        El estado persistente de una entidad puede ser accesible a través de variables de instancia
+        a la entidad o bien a través de las propiedades de estilo de JavaBean.
+    </string>
+
+    <string name="str_key_text">Una clase con clave primaria debe cumplir los siguientes requerimientos:
+        \n\t\t El modificador de control de acceso de la clase debe ser público \n\t\t
+        Las propiedades de la clave primaria deben ser públicas o protected si se
+        utiliza el acceso a la base de la propiedad. \n\t\t La clase debe tener un
+        constructor público por defecto. \n\t\t La clase debe implementar los métodos
+        hashCode() y equals(Object other) \n\t\t La clase debe ser serializable. Una clave primaria
+        debe representarse y mapearse por campos múltiples o propiedades de la clase de la entidad,
+        o debe representarse y mapearse como una clase embebida. Si la clave primaria está compuesta
+        por varios campos o propiedades, los nombres y tipos de campos de la clave primaria o
+        propiedades en la clave primaria debe coincidir con las de la entidad.
+    </string>
+
+    <string name="str_primary_key">Clases con claves primarias</string>
+    <string name="str_relation_entities">Relaciones múltiples de la entidad</string>
+    <string name="str_entities">Entidades</string>
+    <string name="str_video">Video</string>
+    <string name="intent">"Intento(s) "</string>
+    <string name="send_email">Enviar Email</string>
+    <string name="game_memorama">Juego Memorama</string>
+    <string name="generate">Generar</string>
+    <string name="galery_jpa">Galeria JPA</string>
+    <string name="galery_utng">Galeria UTNG</string>
+    <string name="seleccted_teme">Selecciona tu tema Preferido</string>
+    <string-array name="type">
+        <item>Nuevo Juego</item>
+        <item>4 X 4</item>
+        <item>4 X 5</item>
+        <item>4 X 6</item>
+        <item>5 X 6</item>
+        <item>6 X 6</item>
+    </string-array>
+</resources>
+

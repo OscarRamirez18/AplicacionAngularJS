@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_azul"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carreras:"
+        android:textSize="20dp"
+        android:textColor="@color/md_red_400"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Área Tecnologías de la Información y Comunicación"
+        android:textSize="18dp"
+        android:textColor="@color/md_black_1000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n Sistemas Informáticos"
+        android:textSize="15dp"
+        android:textColor="@color/md_black_1000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfil de ingreso: \n
+El aspirante deberá de ser egresado en educación media superior, preferentemente del área informática o áreas afines; contar con habilidad para comunicarse apropiadamente e interpretar instrucciones escritas y verbales, habilidades para el desarrollo creativo e innovador, capacidad para desarrollar autoaprendizaje, razonamiento formal que le facilite la solución de problemas lógicos y de entorno social en el entorno educativo, capacidad de construcción de su propio conocimiento, conocimientos básicos del idioma inglés, sensibilidad a los aspectos ecológicos y de protección al ambiente. \n
+Competencias específicas adquiridas \n
+Implementar aplicaciones de software, mediante técnicas de programación y considerando los requerimientos de la organización para eficientar sus procesos.
+Implementar y realizar soporte técnico a equipo de cómputo, sistemas operativos y redes locales, de acuerdo a las necesidades técnicas de la organización, para garantizar el óptimo funcionamiento de sus recursos informáticos.
+Implementar sistemas de información de calidad, a través de técnicas avanzadas de desarrollo de software para eficientar los procesos de las organizaciones.
+Implementar y administrar sistemas manejadores de bases de datos acorde a los requerimientos de información de la organización."
+        android:textColor="@color/common_signin_btn_default_background"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/alumnosf"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n Redes y Telecomunicaciones"
+        android:textSize="15dp"
+        android:textColor="@color/md_black_1000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perfil de ingreso \n
+El aspirante deberá de ser egresado en educación media superior, preferentemente del área informática o áreas afines; contar con habilidad para comunicarse apropiadamente e interpretar instrucciones escritas y verbales, habilidades para el desarrollo creativo e innovador, capacidad para desarrollar autoaprendizaje, razonamiento formal que le facilite la solución de problemas lógicos y de entorno social en el entorno educativo, capacidad de construcción de su propio conocimiento, conocimientos básicos del idioma inglés, sensibilidad a los aspectos ecológicos y de protección al ambiente. \n
+Competencias específicas adquiridas \n
+Implementar aplicaciones de software, mediante técnicas de programación y considerando los requerimientos de la organización para eficientar sus procesos.
+Implementar y realizar soporte técnico a equipo de cómputo, sistemas operativos y redes locales, de acuerdo a las necesidades técnicas de la organización, para garantizar el óptimo funcionamiento de sus recursos informáticos.
+Implementar y administrar Redes de Área Amplia y servicios de cómputo que garanticen el óptimo manejo de información de las organizaciones.
+Implementar enlaces de telecomunicaciones que satisfagan las necesidades de comunicación de las organizaciones."
+            android:textColor="@color/common_signin_btn_default_background"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/redes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Área Económico Administrativo"
+            android:textSize="18dp"
+            android:textColor="@color/md_black_1000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Recursos Humanos"
+            android:textSize="15dp"
+            android:textColor="@color/md_black_1000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perfil de ingreso \n
+El aspirante deberá de ser egresado en educación media superior, preferentemente de las áreas de administración, contabilidad, humanidades o áreas afines, y contar con conocimientos y capacidades en matemáticas básicas, comunicación oral y escrita, alto sentido de orden y organización, habilidad para trabajar en equipo y hábitos de estudio y lectura. \n
+\n
+Competencias específicas adquiridas
+Evaluar la situación financiera presente y futura, mediante técnicas de análisis y proyección, para optimizar los recursos de la organización.
+
+Generar estados financieros básicos (balance general, estado de resultados y flujo de efectivo) con base a los registros contables y asistidos por software especializado, para proporcionar información en la toma de decisiones.
+Diagnosticar la situación financiera de la organización mediante herramientas de análisis financiero, para contribuir a la toma de decisiones.
+Controlar el capital de trabajo mediante las técnicas aplicables, para optimizar el manejo de las cuentas por cobrar y por pagar.
+Formular la planeación estratégica de acuerdo a las necesidades de la organización y a su entorno, para el alcance de los objetivos planteados.
+
+Construir el marco ideológico y la estructura de la organización aplicando los elementos de la administración para mejorar su funcionamiento.
+Evaluar la situación organizacional y su ámbito de competencia mediante herramientas de investigación y análisis, para determinar las áreas de oportunidad y fortalezas.
+Administrar el capital humano de acuerdo a la estructura, necesidades y normatividad para alcanzar los objetivos de la organización.
+
+Planear el capital humano mediante el diagnóstico del potencial interno y la oferta externa, para cubrir las necesidades a corto, mediano y largo plazo.
+Proveer el recurso humano de acuerdo a las políticas, necesidades de la organización y a la legislación aplicable, para cubrir los puestos vacantes.
+Desarrollar el recurso humano de acuerdo a las políticas y necesidades de la organización y conforme a la legislación vigente, para incrementar la productividad del recurso humano.
+Controlar el sistema de remuneración al personal de acuerdo a las políticas y recursos de la organización y la legislación vigente, para garantizar la equidad interna y la competitividad externa."
+            android:textColor="@color/common_signin_btn_default_background"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/admin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Área Industrial Eléctrica y Electrónica"
+            android:textSize="18dp"
+            android:textColor="@color/md_black_1000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n Procesos Industriales"
+        android:textSize="15dp"
+        android:textColor="@color/md_black_1000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfil de ingreso \n
+El aspirante deberá de ser egresado del nivel bachillerato preferentemente de las áreas tecnológicas o ciencias exactas y contar con los siguientes conocimientos y capacidades: razonamiento lógico matemático, habilidad informática, capacidad de comunicación oral y escrita, permanente deseo de superación, interés por las nuevas tecnologías, interés por el desarrollo sustentable y el cuidado del medio ambiente y responsabilidad social y compromiso con el entorno.
+Competencias específicas adquiridas \n
+Gestionar la producción a través de herramientas de la administración, para cumplir con los requerimientos del cliente.
+
+Planear la producción considerando los recursos tecnológicos, financieros, materiales y humanos para cumplir las metas de producción.
+Supervisar el proceso de producción utilizando herramientas de administración, para cumplir con las especificaciones del producto.
+Administrar la cadena de suministro, a través de sistemas de logística, para garantizar la disposición de materiales y productos.
+
+Gestionar los requerimientos de los materiales y productos de acuerdo al diseño del producto, el plan de producción y las políticas de la organización, para cumplir las metas de producción.
+Administrar inventarios de materiales y productos mediante técnicas de control de almacén, para su disposición oportuna.
+Gestionar los procesos de manufactura, a través de técnicas de administración de operaciones y aseguramiento de la calidad, para contribuir a la competitividad de la organización.
+
+Desarrollar estudio técnico considerando el diseño del producto y los medios de fabricación, para determinar la factibilidad de producción.
+Implementar los procesos y los cambios requeridos a través de tecnologías de fabricación pertinentes, para cumplir con las especificaciones del diseño y la optimización del proceso."
+        android:textColor="@color/common_signin_btn_default_background"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tablets"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Ingenierías"
+            android:textSize="20dp"
+            android:textColor="@color/md_red_400"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Tecnologías de la Información y Comunicación"
+            android:textSize="18dp"
+            android:textColor="@color/md_black_1000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introducción \n
+Contar con Título profesional de TSU de los programas educativos de Sistemas Informáticos, Redes y Telecomunicaciones o Multimedia y Comercio electrónico. El Ingeniero en Tecnologías de la Información y Comunicación cuenta con las competencias profesionales necesarias para su desempeño en el campo laboral, en el ámbito local, regional y nacional. \n
+Competencias específicas adquiridas \n
+Dirigir proyectos de tecnologías de la información que contribuyan a la productividad y logro de los objetivos estratégicos de las organizaciones utilizando las metodologías apropiadas.
+Evaluar sistemas de tecnologías de la información para establecer acciones de mejora e innovación en las organizaciones mediante el uso de tecnologías para auditoría."
+            android:textColor="@color/common_signin_btn_default_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Ingeniería en Negocios y Gestión Empresarial"
+            android:textSize="18dp"
+            android:textColor="@color/md_black_1000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introducción \n
+El Ingeniero en Negocios y Gestión Empresarial cuenta con las competencias profesionales necesarias para su desempeño en el campo laboral en las áreas de capital humano, financiero y gestión comercial, en un ámbito globalizado. \n
+Competencias específicas adquiridas \n
+Apoyar el desarrollo empresarial mediante la optimización del capital financiero y humano para la consolidación de la organización.
+
+Determinar las estrategias de dirección de capital humano con técnicas especializadas para asegurar el logro de los objetivos de la organización.
+Diseñar planes financieros considerando el entorno económico y las capacidades de la empresa para establecer los lineamientos necesarios para el crecimiento de la misma.
+Diseñar procesos productivos y administrativos para mejorar la eficiencia y la eficacia de la organización a través de sistemas de gestión y control.
+Diseñar planes comerciales acordes a las capacidades de la organización para mejorar su competitividad en el mercado.
+
+Formular los planes y programas estratégicos de ventas para garantizar el incremento de las utilidades a través del fortalecimiento de la relación con sus clientes.
+Integrar sistemas y procedimientos estratégicos de compras que faciliten la operación corporativa, mediante el uso eficiente de sus recursos y una buena relación y desarrollo con sus proveedores.
+Evaluar la capacidad de la organización para incursionar en nuevos negocios mediante un análisis de los recursos de la empresa para establecer estrategias con una visión global que fortalezcan su posición competitiva."
+            android:textColor="@color/common_signin_btn_default_background"/>
+
+    </LinearLayout>
+
+</ScrollView>

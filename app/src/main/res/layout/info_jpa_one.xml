@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="@dimen/string_dimens_txv_titulo"
+        android:text="¿Qué es AngularJS?"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/string_dimens_txv"
+        android:text="@string/str_inicio"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="@dimen/string_dimens_txv_titulo"
+            android:text="Mejoras del HTML"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/string_dimens_txv"
+            android:text="Este Javascript pretende que los programadores mejoren el HTML que hacen. Que puedan producir un HTML que, de manera declarativa, genere aplicaciones que sean fáciles de entender incluso para alguien que no tiene conocimientos profundos de informática. El objetivo es producir un HTML altamente semántico, es decir, que cuando lo leas entiendas de manera clara qué es lo que hace o para qué sirve cada cosa.
+\n
+Lógicamente, AngularJS viene cargado con todas las herramientas que los creadores ofrecen para que los desarrolladores sean capaces de crear ese HTML enriquecido. La palabra clave que permite ese HTML declarativo en AngularJS es directiva, que no es otra cosa que código Javascript que mejora el HTML. Puedes usar el que viene con AngularJS y el que han hecho terceros desarrolladores, puesto que muchas personas están contribuyendo con pequeños proyectos -independientes del propio framework- para enriquecer el panorama de directivas disponibles. Hasta este punto serás un consumidor de directivas, y finalmente cuando vayas tomando experiencia serás capaz de convertirte en un productor de directivas, enriqueciendo tú mismo las herramientas para mejorar tu propio HTML."/>
+
+
+        <Button
+        android:id="@+id/btn_custionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_cuest"
+        android:textSize="@dimen/string_dimens_btn"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Video"
+        android:textSize="@dimen/string_dimens_btn"
+        android:gravity="center"
+        android:id="@+id/btn_video"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Audio"
+            android:textSize="@dimen/string_dimens_btn"
+            android:gravity="center"
+            android:id="@+id/btn_audio"/>
+</LinearLayout>
+    </ScrollView>

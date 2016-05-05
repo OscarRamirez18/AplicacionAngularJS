@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txv_intoduccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/txv_ultimo"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/string_dimens_txv_titulo"
+        android:text="Qué es el binding"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:id="@+id/txv_intoduccion_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="@dimen/string_dimens_txv"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/txv_ultimo"
+        android:text="El binding no es más que enlazar la información que tenemos en el scope con lo que mostramos en el HTML. Esto se produce en dos sentidos:
+One-way binding:
+En este caso la información solamente fluye desde el scope hacia la parte visual, osea, desde el modelo hacia la representación de la información en el HTML. Lo conseguimos con la sintaxis Mustache de las dos llaves.
+\n
+{{ dato }}
+\n
+Ese dato estarías trayéndolo desde el scope y mostrándolo en la página. La información fluye desde el scope hacia la representación quiere decir que, si por lo que sea se actualiza el dato que hay almacenado en el modelo (scope) se actualizará automáticamente en la presentación (página).
+\n
+Two-way binding:
+En este segundo caso la información fluye desde el scope hacia la parte visual (igual que en one-way binding) y también desde la parte visual hacia el scope. La implementas por medio de la directiva ngModel.
+\n input type=text ng-model=miDato
+\n En este caso cuando el modelo cambie, el dato que está escrito en el campo de texto (o en el elemento de formulario donde lo uses) se actualizaría automáticamente con el nuevo valor. Además, gracias al doble binding (two-way) en este caso, cuando el usuario cambie el valor del campo de texto el scope se actualizará automáticamente.
+"
+        />
+    <Button
+        android:id="@+id/btn_custionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_cuest"
+        android:textSize="@dimen/string_dimens_btn"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Video"
+        android:textSize="@dimen/string_dimens_btn"
+        android:gravity="center"
+        android:id="@+id/btn_video"/>
+</LinearLayout>
+    </ScrollView>

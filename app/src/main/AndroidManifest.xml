@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="utng.edu.mx.angularjs">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18"
+        tools:replace="targetSdkVersion" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/name_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme2">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".answers.jpa.QuestionJPAActivity"></activity>
+        <activity android:name=".CreditosActivity"/>
+        <activity android:name=".answers.entities.QuestionEntitiesActivity"></activity>
+        <activity android:name=".answers.persisten.QuestionPersistenActivity"></activity>
+        <activity android:name=".answers.primarykey.QuestionPrimaryKeyActivity"></activity>
+        <activity android:name=".answers.relation.QuestionRelationActivity"></activity>
+        <activity android:name=".ActivityGalerias"/>
+        <activity android:name=".ActivityPaginaWeb"/>
+        <activity android:name=".GamesActivity"></activity>
+        <activity android:name=".PreguntaEjemplo"></activity>
+        <activity android:name=".estrategia.Manager"></activity>
+        <activity android:name=".gato.JuegoCpu"/>
+        <activity android:name=".gato.AcercaDe"/>
+        <activity android:name=".ActivityBuscaminas"/>
+        <activity android:name=".agenda.AcercaDeAg"/>
+        <activity android:name=".agenda.AgendaFinalActivity"/>
+        <activity android:name=".agenda.Notepad"/>
+        <activity android:name=".agenda.NoteEdit"/>
+        <activity android:name=".gato.Juego"/>
+        <activity android:name=".activity.JPAActivityOne" />
+        <activity android:name=".activity.PersistenActivityTwo" />
+        <activity android:name=".activity.RelationActivityThree" />
+        <activity android:name=".activity.EntitiesActivityFour" />
+        <activity android:name=".activity.PrimaryKeyActivityFive" />
+        <activity android:name=".video.VideoActivityUno"></activity>
+        <activity android:name=".video.VideoActivityDos"></activity>
+        <activity android:name=".video.VideoActivityTres"></activity>
+        <activity android:name=".video.VideoActivityCuatro"></activity>
+        <activity android:name=".video.VideoActivityCinco"></activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".TemarioActivity" />
+        <activity android:name=".Calculadora"></activity>
+        <activity android:name=".pdfgrafics.CreatePDFActivity" />
+        <activity android:name=".pdfgrafics.GrapicsActivity" />
+        <activity android:name=".Mail"></activity>
+        <activity android:name=".MusicaActivity"></activity>
+        <activity android:name=".galeria.GaleryJPA"></activity>
+        <activity android:name=".galeria.GaleryUTNG"></activity>
+        <activity android:name=".TemeActivity"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".acercade.AcercaDeScrollingActivity"
+            android:label="@string/title_activity_acerca_de_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+    </application>
+
+</manifest>

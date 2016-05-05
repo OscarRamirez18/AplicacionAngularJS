@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo_azul"
+    tools:context="utng.edu.mx.angularjs.StartActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80pt"
+        android:layout_height="80pt"
+        android:src="@drawable/angular"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/que_es_angular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/primary_text_light_nodisable"
+        android:text="Objetivo del Curso"
+
+        />
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/primary_text_light_nodisable"
+        android:text="Este tutorial está especialmente diseñado para ayudarle a aprender AngularJS tan rápida y eficientemente como sea posible."
+
+        />
+    <TextView
+        android:id="@+id/con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/primary_text_light_nodisable"
+        android:text="Para poder ingresar al tutorial da click en el boton Registrar"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:onClick="onButtonClick"
+        android:textColor="@color/md_blue_300"
+        android:id="@+id/btn_regis"
+        />
+
+    <ImageButton
+        android:id="@+id/acerca_de"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/acerca_de"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Galerias"
+        android:id="@+id/galerias"
+        android:textColor="@color/md_blue_300"/>
+       <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Pagina Web"
+        android:id="@+id/pagina_web"
+        android:textColor="@color/md_blue_300"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Agenda"
+        android:id="@+id/agenda"
+        android:textColor="@color/md_blue_300"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Calculadora"
+        android:id="@+id/calcula"
+        android:textColor="@color/md_blue_300"/>
+    </LinearLayout>
+
+</ScrollView>
